@@ -4,7 +4,7 @@ const SEAT_TYPE = {
     PREMIUM_ECONOMY :"premim_economy" ,
     FIRST_CLASS :  "first_class",
 }
-const BOONIKG_STATUS = {
+const BOOKING_STATUS = {
     BOOKED : "booked" ,
     CANCELLED : "cancelled",
     INITIATED : "initiated",
@@ -14,5 +14,5 @@ const BOONIKG_STATUS = {
 
 module.exports = {
     SEAT_TYPE ,
-    BOONIKG_STATUS ,
+    BOOKING_STATUS ,
 }

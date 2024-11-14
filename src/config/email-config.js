@@ -7,6 +7,6 @@ const mailsender = nodemailer.createTransport({
         user : GMAIL_EMAIL , 
         pass : GMAIL_PASS ,
     }
-})
+}) ;
 
 module.exports = mailsender ;
